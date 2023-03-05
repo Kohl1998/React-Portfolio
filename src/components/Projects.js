@@ -1,7 +1,7 @@
 import React from "react";
 
-function Gallery () {
+function Projects () {
 
 }
 
-export default Gallery;
+export default Projects;

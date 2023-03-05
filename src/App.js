@@ -9,6 +9,8 @@ import Projects from './components/Projects';
 function App () {
     return (
         <HashRouter>
+            <div>
+            <NavLink /> 
             <Routes>
                 {/* / Sets home as default path */}
                 <Route path='/' element={<Home/>}/>
@@ -17,6 +19,7 @@ function App () {
                 <Route path='project' element={<Projects/>}/>
                 <Route path='contact' element={<Contact/>}/>
             </Routes>
+            </div>
         </HashRouter>
     )
 }

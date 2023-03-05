@@ -10,8 +10,9 @@ function App () {
     return (
         <HashRouter>
             <Routes>
+                {/* / Sets home as default path */}
+                <Route path='/' element={<Home/>}/>
                 <Route path='header' element={<Header/>}/>
-                <Route path='home' element={<Home/>}/>
                 <Route path='gallery' element={<Gallery/>}/>
                 <Route path='project' element={<Project/>}/>
                 <Route path='contact' element={<Contact/>}/>

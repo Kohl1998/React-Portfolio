@@ -1,16 +1,16 @@
 import React from 'react';
-import { HashRouter, HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
+import NavTabs from './components/navLinks';
 
 function App () {
     return (
-        <HashRouter>
+        <Router>
             <div>
-            <NavLink /> 
             <Routes>
                 {/* / Sets home as default path */}
                 <Route path='/' element={<Home/>}/>
@@ -20,7 +20,7 @@ function App () {
                 <Route path='contact' element={<Contact/>}/>
             </Routes>
             </div>
-        </HashRouter>
+        </Router>
     )
 }
 

@@ -6,17 +6,21 @@ import Navbar from 'react-bootstrap/Navbar';
 // Simple navbar with different sections to web pages
 function Home () {
     return (
-        <Navbar bg="light" variant="light">
-        <Container>
-          <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
+      <Navbar bg="light" expand="lg">
+      <Container>
+        <Navbar.Brand href="/">KV</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Projects</Nav.Link>
-            <Nav.Link href="#pricing">Gallery</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/Header">Header</Nav.Link>
+            <Nav.Link href="/Gallery">Gallery</Nav.Link>
+            <Nav.Link href="/Projects">Projects</Nav.Link>
+            <Nav.Link href="/Contact">Contact</Nav.Link>
           </Nav>
-        </Container>
-      </Navbar>
+        </Navbar.Collapse>
+      </Container>
+      </Navbar>  
     )
 }
 

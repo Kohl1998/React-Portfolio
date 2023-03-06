@@ -2,10 +2,12 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import me from './images/me.jpg'
 
 // Simple navbar with different sections to web pages
 function Home () {
     return (
+      <div>
       <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="/">KV</Navbar.Brand>
@@ -21,6 +23,11 @@ function Home () {
         </Navbar.Collapse>
       </Container>
       </Navbar>  
+      <div style={{flex: 'row'}}>
+      <img src={me} alt="Photo of Kohl" height="400px" style={{margin: '10px'}}>
+      </img>
+      </div>
+      </div>
     )
 }
 

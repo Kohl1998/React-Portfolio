@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
+import { Container, Row, Col } from 'react-grid';
 
 function Gallery(props) {
     console.log(props);
@@ -10,7 +11,11 @@ function Gallery(props) {
     const allProjects = props.propsData.map((eachProject) => {
         return (
             <div>
-                <Card style={{ width: '18rem' }}>
+                <Container>
+                <Row lg={3}>
+                    {/* gives each card equal width*/}
+                <Col className="d-flex">
+                <Card style={{ width: '18rem' }} className="flex-fill">
                     <Card.Img variant="top" src={eachProject.screenshot} />
                     <Card.Body>
                         <Card.Title>{eachProject.title}</Card.Title>
@@ -18,6 +23,9 @@ function Gallery(props) {
                         <Card.Link href={eachProject.deployment} target="_blank">Click for live application</Card.Link>
                     </Card.Body>
                 </Card>
+                </Col>
+                </Row>
+                </Container>
             </div>
         );
     });

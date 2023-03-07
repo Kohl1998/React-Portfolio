@@ -4,6 +4,7 @@ import me from './images/me.jpg';
 import React from 'react';
 import { Container, Row, Col } from 'react-grid';
 
+
 // Simple navbar with different sections to web pages
 function Home () {
     return (
@@ -18,7 +19,6 @@ function Home () {
           <Nav className="justify-content-end" style={{width: '100%'}}>
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/Header">Header</Nav.Link>
-            <Nav.Link href="/Gallery">Gallery</Nav.Link>
             <Nav.Link href="/Projects">Projects</Nav.Link>
             <Nav.Link href="/Contact">Contact</Nav.Link>
           </Nav>

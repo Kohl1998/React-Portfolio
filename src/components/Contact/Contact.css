@@ -1,0 +1,25 @@
+h3 {
+    text-align: center;
+}
+
+.form-container {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+form input, textarea, button {
+width: 50%;
+margin: 4px;
+}
+
+form button {
+    padding: 5px;
+    background-color: #fff;
+}
+

@@ -1,0 +1,25 @@
+.header-container {
+    height: 400px;
+}
+
+/* Aligns page title to center */
+.header-container h1 {
+    text-align: center;
+}
+
+.header-container p {
+    text-align: center;
+}
+
+/* To center image */
+.image-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* To change size of image */
+.image-container img {
+    height: 400px;
+    width: 400px;
+}

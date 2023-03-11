@@ -17,9 +17,23 @@
     margin-bottom: 10px;
 }
 
+h2 {
+    text-align: center;
+}
+
 
 /* To change size of image */
 .image-container img {
     height: 400px;
     width: 400px;
+}
+
+.skills {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.skills svg {
+    margin: 8px;
 }

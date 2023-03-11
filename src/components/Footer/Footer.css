@@ -1,0 +1,14 @@
+:root {
+    --footerBG: #D3D3D3;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: var(--footerBG);
+}
+
+.footer-container svg {
+    margin: 8px;
+}

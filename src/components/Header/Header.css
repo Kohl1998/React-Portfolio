@@ -1,0 +1,23 @@
+:root {
+    --navbarText: #fff;
+    --navbarBG: #28282B;
+}
+
+nav {
+    background-color: var(--navbarBG);
+    height: 50px;
+}
+
+/* pushes navbar items to end of nav */
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+/* sets color of link to white */
+nav ul a {
+    list-style-type: none;
+    color: var(--navbarText);
+    margin: 10px;
+}

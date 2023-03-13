@@ -28,7 +28,7 @@ setFormData({
     return (
         <div>
             <Header />
-            <h3>Reach out to me using links in the footer!</h3>
+            <h2>Reach out to me by clicking icons links in the footer</h2>
             <div className="form-container">
             <form onSubmit={handleSubmit}>
             <input type="text" placeholder="Enter your name" name="name" value={formData.name} onChange={handleChange} />

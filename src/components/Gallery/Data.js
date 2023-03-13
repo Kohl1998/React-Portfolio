@@ -1,4 +1,4 @@
-[{
+export const Data = [{
     "id": 1,
     "title": "Profile Team Generator",
     "github": "https://github.com/Kohl1998/Profile-team-generator",

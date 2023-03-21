@@ -1,6 +1,6 @@
 import React from "react";
 import Form from 'react-bootstrap/Form';
-import Header from "./Header";
+import Header from "../Header/Header";
 import { Button } from "react-bootstrap";
 
 /* [ ] Must have contact information

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import Header from "./Header";
-import projects from '../projects.json'
-import Gallery from "./Gallery";
+import projects from './projects.json'
+import Gallery from "../Gallery/Gallery";
 
 /* Must be a reusable component that ingests JSON data as a props and renders a single instance for each project.
 [ ] Must utilize router props to properly render the right project based on user selection

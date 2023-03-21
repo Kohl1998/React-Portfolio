@@ -1,0 +1,12 @@
+:root {
+    /* platinum grey to be used for footer too */
+    --color: #E5E4E2;
+}
+
+.section-links a {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    width: 100%;
+    background-color: var(--color);
+}

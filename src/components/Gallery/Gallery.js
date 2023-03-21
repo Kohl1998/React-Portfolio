@@ -1,7 +1,6 @@
 import React from "react";
-import Header from "./Header";
+import Header from "../Header/Header";
 import { Card } from "react-bootstrap";
-import { Button } from "react-bootstrap";
 import { Container, Row, Col } from 'react-grid';
 
 function Gallery(props) {

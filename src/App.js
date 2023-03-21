@@ -1,11 +1,10 @@
 import React from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/Header';
-import Home from './components/Home';
-import Contact from './components/Contact';
-import Projects from './components/Projects';
-import NavTabs from './components/navLinks';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './components/Header/Header';
+import Home from './components/Home/Home';
+import Contact from './components/Contact/Contact';
+import Projects from './components/Projects/Projects';
+import Footer from './components/Footer/Footer';
 
 
 function App () {

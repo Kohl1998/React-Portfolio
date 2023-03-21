@@ -1,5 +1,4 @@
 :root {
-<<<<<<< HEAD
     /* grey blue */
     --color: #7393B3;
 }
@@ -10,25 +9,3 @@
     background-color: var(--color);
     height: 200px;
 }
-=======
-    --footerBG: #D3D3D3;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: center;
-    height: 120px;
-    background-color: var(--footerBG);
-}
-
-.footer-container svg {
-    margin: 8px;
-}
-
-.footer-container p {
-    text-align: center;
-    font-size: 16px;
-    color: black;
-}
-
->>>>>>> 4e0c2e15ce2f9c1be90401041a43c604434140b5

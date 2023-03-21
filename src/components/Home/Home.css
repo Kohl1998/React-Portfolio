@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .content-wrapper {
     display: flex;
     justify-content: center;
@@ -10,46 +9,10 @@
 }
 
 img {
-=======
-.header-container {
-    height: 400px;
-}
-
-body {
-    color: 	#36454F;
-}
-
-/* Aligns page title to center */
-.header-container h1 {
-    text-align: center;
-}
-
-.header-container p {
-    text-align: center;
-}
-
-/* To center image */
-.image-container {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-h2 {
-    text-align: center;
-}
-
-
-/* To change size of image */
-.image-container img {
->>>>>>> 4e0c2e15ce2f9c1be90401041a43c604434140b5
     height: 400px;
     width: 400px;
 }
 
-<<<<<<< HEAD
-body {
-background-color: #818589;
-=======
 .skills {
     height: 120px;
     display: flex;
@@ -77,5 +40,4 @@ background-color: #818589;
 .button-container a:hover {
     background-color: #000;
     color: #fff;
->>>>>>> 4e0c2e15ce2f9c1be90401041a43c604434140b5
 }

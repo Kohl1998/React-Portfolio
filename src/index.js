@@ -1,11 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
-import ReactDOM from 'react-dom';
-import App from './App';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-ReactDOM.render (<App />, document.getElementById('root'));
-=======
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -22,4 +15,3 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
->>>>>>> 4e0c2e15ce2f9c1be90401041a43c604434140b5

@@ -6,9 +6,9 @@ function Header() {
   return (
     <div>
       <div className="section-links">
-        <a href="#">About Me</a>
-        <a href="#">Work</a>
-        <a href="#">Contact Me</a>
+        <a href="#about">About Me</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact Me</a>
         <a href="#">Resume</a>
       </div>
     </div>

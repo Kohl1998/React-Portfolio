@@ -1,0 +1,31 @@
+.container img {
+    width: 60%;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-link {
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    color: blue;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.card-title {
+font-size: 18px;
+}
+
+.container {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.card-link:hover {
+    color: red;
+}

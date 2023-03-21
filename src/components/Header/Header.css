@@ -1,4 +1,5 @@
 :root {
+<<<<<<< HEAD
     /* platinum grey to be used for footer too */
     --color: #E5E4E2;
 }
@@ -10,3 +11,36 @@
     width: 100%;
     background-color: var(--color);
 }
+=======
+  --navbarText: #fff;
+  --navbarBG: #28282b;
+}
+
+nav {
+  background-color: var(--navbarBG);
+  height: 50px;
+}
+
+/* pushes navbar items to end of nav */
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+/* sets color of link to white */
+nav ul a {
+  text-decoration: none;
+  color: var(--navbarText);
+  margin: 10px;
+  font-size: 18px;
+}
+
+/* nav ul a:visited {
+color:blue
+} */
+
+nav ul a:hover {
+    color: red;
+}
+>>>>>>> 4e0c2e15ce2f9c1be90401041a43c604434140b5

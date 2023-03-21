@@ -1,13 +1,25 @@
 {
+<<<<<<< HEAD
   "homepage": "http://kohl1998.github.io/React-portfolio",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+=======
+  "name": "react-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-regular-svg-icons": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+>>>>>>> 4e0c2e15ce2f9c1be90401041a43c604434140b5
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.3.4",
+<<<<<<< HEAD
     "bootstrap": "^5.2.3",
     "mdb-react-ui-kit": "^5.1.0",
     "react": "^18.2.0",
@@ -17,6 +29,15 @@
     "react-router-dom": "^6.8.2",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.8",
+=======
+    "json-loader": "^0.5.7",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-pdf": "^6.2.2",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "5.0.1",
+>>>>>>> 4e0c2e15ce2f9c1be90401041a43c604434140b5
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -42,8 +63,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "json-loader": "^0.5.7"
+=======
+>>>>>>> 4e0c2e15ce2f9c1be90401041a43c604434140b5
   }
 }
